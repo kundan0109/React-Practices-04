@@ -6,16 +6,22 @@ import Filter from "./Filter.jsx";
 import ArrowMapEven from "./ArrowMapEven.jsx";
 import ArrowFilterEven from "./ArrowFilterEven.jsx";
 import PropsInput from "./PropsInput.jsx";
+import UseEffect01 from "./UseEffect01.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
-    <Filter />
+    {/* <App /> */}
+    {/* <Filter /> */}
 
-    <ArrowMapEven></ArrowMapEven>
+    {/* <ArrowMapEven></ArrowMapEven> */}
 
-    <ArrowFilterEven></ArrowFilterEven>
+    {/* <ArrowFilterEven></ArrowFilterEven> */}
 
-    <PropsInput></PropsInput>
+    {/* <PropsInput></PropsInput> */}
+
+
+{/* **************************************** */}
+  <UseEffect01></UseEffect01>
+
   </StrictMode>
 );
